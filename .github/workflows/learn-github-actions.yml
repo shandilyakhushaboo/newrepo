@@ -34,3 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      
+        # Use a Docker image
+      - name: Docker image
+        uses: docker://alpine:3.8
